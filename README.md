@@ -1,9 +1,9 @@
 # 🧬 Gene Expression Analysis of Glioblastoma in Adults vs Children
 
 > **Project Title:** Regulatory Differences in Glioblastoma Across Age Groups  
-> **Author:** Kenneth Chen, Sophia Nguyen, Andrew Robinson
+> **Author:** Kenneth Chen, Sophia Nguyen, Andrew Robinson  
 > **Affiliation:** iTCGA Cancer Research Workshop 2025  
-> **Date:** June 2025  
+> **Date:** June 2025
 > [🔗 View Presentation](https://www.canva.com/design/DAGqiSK-aLY/-jHqYrcWF28CwezMRpAMBQ/edit?utm_content=DAGqiSK-aLY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
