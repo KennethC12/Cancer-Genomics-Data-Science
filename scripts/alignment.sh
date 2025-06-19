@@ -21,23 +21,23 @@ module load hisat2-2.1.0-gcc-9.3.0-u7zbyow
 module load samtools-1.10-gcc-9.3.0-flukja5
 module load subread-2.0.2-gcc-10.2.0
 
-#for i in ~/project/data/trim_fastq/KAS_fastq/*.lite.1.fastq
-#do
+for i in ~/project/data/trim_fastq/KAS_fastq/*.lite.1.fastq
+do
 
-#name=$(basename ${i} .lite.1.fastq)
+name=$(basename ${i} .lite.1.fastq)
 
-#hisat2 -x ~/1_project/data/genome/hg38/hg38 \
-#-U ~/project/data/trim_fastq/KAS_fastq/${name}.lite.1.fastq \
-#-S ~/project/results/sam/${name}.sam \
-#-p 4
+hisat2 -x ~/1_project/data/genome/hg38/hg38 \
+-U ~/project/data/trim_fastq/KAS_fastq/${name}.lite.1.fastq \
+-S ~/project/results/sam/${name}.sam \
+-p 4
 
-#samtools view -S -b ~/project/results/sam/${name}.sam > ~/project/results/bam/${name}.bam
-#samtools sort -o ~/project/results/bam/${name}_sorted.bam ~/project/results/bam/${name}.bam
-#samtools flagstat ~/project/results/bam/${name}.bam
-#samtools index ~/project/results/bam/${name}_sorted.bam
+samtools view -S -b ~/project/results/sam/${name}.sam > ~/project/results/bam/${name}.bam
+samtools sort -o ~/project/results/bam/${name}_sorted.bam ~/project/results/bam/${name}.bam
+samtools flagstat ~/project/results/bam/${name}.bam
+samtools index ~/project/results/bam/${name}_sorted.bam
 
 
-#done
+done
 featureCounts -a ~/1_project/data/genome/Homo_sapiens.GRCh38.111.gtf \
 -o ~/project/results/counts/counts.txt \
 -T 24 \
