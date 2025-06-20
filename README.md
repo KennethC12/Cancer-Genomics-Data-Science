@@ -68,7 +68,7 @@ This project explores the **regulatory differences** in glioblastoma between **a
 
 ### Volcano Plot  
 ![Volcano Plot](./results/Volcano_Plot.png)
-![NNMD Plot](./results/Rplot.png)
+![NMMD Plot](./results/Rplot.png)
 
 > Genes with |log₂FC| > 2 and FDR < 0.05 were considered significantly differentially expressed.
 
@@ -114,5 +114,9 @@ Masliah-Planchon, J., Bauchet, L., & Sanson, M. (2021). Pediatric and adult low-
 National Cancer Institute. (n.d.). *Childhood astrocytomas treatment (PDQ®)–Patient version*. National Institutes of Health. Retrieved June 18, 2025, from https://www.cancer.gov/types/brain/patient/childhood-glioma-astrocytoma
 
 National Center for Biotechnology Information. (n.d.). *PRJNA1230184: Transcriptomic profiling of pediatric gliomas*. NCBI BioProject. Retrieved June 18, 2025, from https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1230184
+
+Das, K. K. (2017, September 27). Pediatric glioblastoma. Glioblastoma [Internet]. https://www.ncbi.nlm.nih.gov/books/NBK469983/#:~:text=As%20per%20the%20Central%20Brain,%2Dgrade%20gliomas%20(22)
+
+Schaff, L. R., & Mellinghoff, I. K. (2023, February 21). Glioblastoma and other primary brain malignancies in adults: A Review. JAMA. https://pmc.ncbi.nlm.nih.gov/articles/PMC11445779/ 
 
 ---
