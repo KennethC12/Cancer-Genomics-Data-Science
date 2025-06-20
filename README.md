@@ -68,6 +68,7 @@ This project explores the **regulatory differences** in glioblastoma between **a
 
 ### Volcano Plot  
 ![Volcano Plot](./results/Volcano_Plot.png)
+![NNMD Plot](./results/Rplot.png)
 
 > Genes with |log₂FC| > 2 and FDR < 0.05 were considered significantly differentially expressed.
 
